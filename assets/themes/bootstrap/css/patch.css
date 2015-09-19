@@ -2,6 +2,10 @@ body {
   font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
 }
 
+.dis-block{
+	display: block;
+  overflow: hidden;}
+
 .bs-example:after {
 	content: "实例：" !important;
 }
