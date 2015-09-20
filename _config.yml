@@ -127,7 +127,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : baidu
+    provider : 
     baidu :
       picture : '/img/sharing.png'
 

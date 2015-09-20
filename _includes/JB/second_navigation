@@ -1,0 +1,6 @@
+{% case page.use_second_navigation %}
+{% when 1 %}
+  {% include JB/second-navigation/1 %}
+{% when 2 %}
+  {% include JB/second-navigation/2 %}
+{% endcase %}

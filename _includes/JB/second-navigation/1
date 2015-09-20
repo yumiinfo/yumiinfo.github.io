@@ -1,0 +1,10 @@
+<main class="bs-docs-masthead" id="content" role="main" tabindex="-1">
+  <div class="container">
+    <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">域</span>
+    <p class="lead">Yumi.info 提供最全面的域名咨询，域名抢注和域名查询，域名投资先驱者，展示的精品域名，诚信交易。</p>
+    <p class="lead">
+      <a href="/mall/" class="btn btn-outline-inverse btn-lg" onclick="_hmt.push(['_trackEvent', 'yumi-navbar', 'click', 'yumi.info我的米店'])">我的米店</a>
+    </p>
+    <p class="version">推荐最强悍的私人域名抢注平台 | www.qiang365.com</p>
+  </div>
+</main>

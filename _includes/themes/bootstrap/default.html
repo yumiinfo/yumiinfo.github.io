@@ -43,22 +43,17 @@
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
 		      </ul>
-		      <ul class="nav navbar-nav navbar-right">
+		      <!--<ul class="nav navbar-nav navbar-right">
 		        <li><a href="http://www.xiexianbin.cn/" onclick="_hmt.push(['_trackEvent', 'yumi-info-navbar', 'click', '导航-域名信息网'])" target="_blank">谢先斌的博客</a></li>
-		      </ul>
+		      </ul>-->
 		    </nav>
 		  </div>
 		</header>
   	<!-- Page content of course! -->
     
-		<div class="bs-docs-header" id="content" tabindex="-1">
-      <div class="container">
-        <h1>{{ page.title_big }}</h1>
-        <p>{{ page.title_description }}</p>
-      </div>
-    </div>
-
-		<div class="container">
+		{% include JB/second_navigation %}
+		
+		<div class="container bs-docs-container">
       {{ content }}
     </div>
 
@@ -96,7 +91,7 @@
             </div>
           </div>
         </div>
-        <div class="row footer-bottom border-top">
+        <div class="row footer-bottom">
           <ul class="list-inline text-center">
             <li>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} <a href="http://www.miibeian.gov.cn/" target="_blank">{{ site.BLOG.static.record }}</a></li>
           </ul>
