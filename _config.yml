@@ -8,6 +8,10 @@ highlighter: pygments
 # https://help.github.com/articles/migrating-your-pages-site-from-maruku
 markdown: kramdown
 
+# 
+redcarpet:
+  extensions: ["tables"]
+
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
@@ -33,7 +37,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://yumiinfo.github.io
+production_url : http://www.yumi.info
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -77,6 +81,9 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
+  archive_path: /archive/
+  categories_path : /categories/
+  tags_path : /tags/
   atom_path : /atom.xml
   rss_path : /rss.xml
 
@@ -127,7 +134,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : 
+    provider : baidu
     baidu :
       picture : '/img/sharing.png'
 
@@ -154,6 +161,14 @@ image :
 BLOG :
   static :
     record : ''
+
+# SEO information variables
+SEO :
+  description :
+    xiexianbin,谢先斌,谢先斌的博客,博客,OpenStack开发者,开源
+  
+  keywords :
+    xiexianbin,谢先斌,谢先斌的博客,博客,OpenStack开发者,开源
 
 # Page variables
 paginate : 10
