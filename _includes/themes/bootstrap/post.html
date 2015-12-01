@@ -6,31 +6,29 @@
   <div class="col-md-12">
     <div class="date dis-block">
       <span class="col-sm-6 dis-block">{{ page.date | date_to_long_string }}</span>
-      <span class="col-sm-6 dis-block"></span>
+      <span class="col-sm-6 dis-block">{% include JB/sharing %}</span>
     </div>
-    <div class="container bs-docs-container">
-    	<div class="row">
-	      <div class="col-md-9" role="main" id="blog_content">
-	        {{ content }}
-	      </div>
-	      <div class="col-md-3" role="complementary">
-	      	<nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm" id="blog_nav_menu">
-	      		<!-- The 
-	      		<span>Navigation</span>
-	      		<ul class="nav bs-docs-sidenav">
-	      			<li>
-							  <a href="#overview">目录</a>
-							</li>
-	      			<li>
-							  <a href="#overview">目录</a>
-							  <ul class="nav">
-							    <li><a href="#overview-title">标题1</a></li>
-							    <li><a href="#overview-title">标题2</a></li>
-							  </ul>
-							</li>
-	      	  </ul>-->
-	      </div>
-	    </div>
+    <div class="content bs-docs-container dis-block">
+    	<div class="col-md-9" role="main" id="blog_content">
+        {{ content }}
+      </div>
+      <div class="col-md-3" role="complementary">
+      	<nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm" id="blog_nav_menu">
+      		<!-- The 
+      		<span>Navigation</span>
+      		<ul class="nav bs-docs-sidenav">
+      			<li>
+						  <a href="#overview">目录</a>
+						</li>
+      			<li>
+						  <a href="#overview">目录</a>
+						  <ul class="nav">
+						    <li><a href="#overview-title">标题1</a></li>
+						    <li><a href="#overview-title">标题2</a></li>
+						  </ul>
+						</li>
+      	  </ul>-->
+      </div>
     </div>
 
     <div class="bs-docs-footer col-sm-12 border-top">
