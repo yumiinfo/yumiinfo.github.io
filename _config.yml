@@ -1,6 +1,6 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "ChangeLog.md"]
 highlighter: pygments
@@ -165,10 +165,10 @@ BLOG :
 # SEO information variables
 SEO :
   description :
-    xiexianbin,Ğ»ÏÈ±ó,Ğ»ÏÈ±óµÄ²©¿Í,²©¿Í,OpenStack¿ª·¢Õß,¿ªÔ´
+    xiexianbin,è°¢å…ˆæ–Œ,è°¢å…ˆæ–Œçš„åšå®¢,åšå®¢,OpenStackå¼€å‘è€…,å¼€æº
   
   keywords :
-    xiexianbin,Ğ»ÏÈ±ó,Ğ»ÏÈ±óµÄ²©¿Í,²©¿Í,OpenStack¿ª·¢Õß,¿ªÔ´
+    xiexianbin,è°¢å…ˆæ–Œ,è°¢å…ˆæ–Œçš„åšå®¢,åšå®¢,OpenStackå¼€å‘è€…,å¼€æº
 
 # Page variables
 paginate : 10
