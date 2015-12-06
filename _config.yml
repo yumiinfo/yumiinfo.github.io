@@ -105,7 +105,7 @@ JB :
       width: 
       colorscheme: 
     duoshuo :
-      short_name : xiexianbin
+      short_name : yumiinfo
 
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -114,7 +114,7 @@ JB :
   analytics :
     provider : baidu
     baidu :
-        baidu_site_uuid : ''
+        baidu_site_uuid : '4c62f2117bdd48bee8541865531c04fd'
     google :
         tracking_id : 'UA-***'
     googleUA :
